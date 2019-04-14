@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e8e8eb!important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.padding3 {
+  padding: 20px;
+}
+
+.containerC {
+  width: 90vw;
+  margin: 30px auto;
+}
+
+.MuiAppBar-colorDefault-7 {
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  color: white!important;
+}
+
+.MuiAppBar-colorDefault-7 a {
+  color: white!important;
+}
+
+.MuiMenuItem-root-95 {
+  color: white!important;
+}
+
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 50%
+}
+
+.gridLay {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;gi
+  grid-row-gap: 10px;
+}
+
+.eachGrid {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 4px #cac8c8;
+  transition: all 0.3s;
+  border-top: solid 0px red;
+}
+
+.eachGrid:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 7px 10px #807f7e;
+  margin: -9px;
+  padding: 9px;
+  z-index: 100;
+  font-size: 110%!important;
+  border-top: solid 7px red;
+}
